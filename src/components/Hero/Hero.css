@@ -1,0 +1,48 @@
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.description p{
+  font-weight: 700;
+}
+
+.description .aboutMe{
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.description h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.img_container{
+  position: relative;
+}
+
+.img{
+  height: 369px;
+  width: 350px;
+  background-color: rgb(138, 136, 136);
+}
+
+.img::before{
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -140px;
+  width: 500px;
+  height: 550px;
+  background-image: url('../../image/green-lines-7.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}

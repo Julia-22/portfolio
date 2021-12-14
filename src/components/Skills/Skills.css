@@ -1,0 +1,54 @@
+.skills{
+  position: relative;
+  margin: 50px 0;
+}
+
+.skills h2{
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  z-index: 2;
+}
+.skills h2::before{
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 450px;
+  width: 55px;
+  height: 55px;
+  background-color: rgba(69, 158, 84, 0.692);
+  border-radius: 50%;
+  z-index: -1;
+}
+.skills_description{
+  display: grid;
+  grid-template-areas: 'hard education'
+                       'hard soft';
+}
+.hard_skills{
+  grid-area: hard;
+  margin-right: 70px;
+}
+.education{
+  grid-area: education;
+  margin-bottom: 30px;
+}
+.soft_skills{
+  grid-area: soft;
+}
+.hard_skills h3,
+.education h3,
+.soft_skills h3{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.hard_skills li,
+.education p,
+.soft_skills li{
+  line-height: 35px;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.75);
+}
