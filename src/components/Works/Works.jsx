@@ -18,7 +18,7 @@ export default function Works() {
       <h2>WORKS</h2>
       <ul className="works_list">
         <li>
-          <img src={dashboard} alt="diving landing" />
+          <img src={dashboard} alt="kanban board" />
           <div className="description">
             <p><b>Kanban board</b><br/>
               Used <a href="https://board-apiapp.herokuapp.com/api/boards" target="_blank" style={{ color: 'rgba(0, 0, 0, 0.6)' }}>board-apiapp.herokuapp.com</a> API for the backend<br />
@@ -52,9 +52,10 @@ export default function Works() {
         </li>
 
         <li>
-          <img src={divingLanding} alt="movies landing"/>
+          <img src={divingLanding} alt="diving landing"/>
           <div className="description">
             <p><b>Diving school landing page</b><br/>
+                Implemented responsive design for any device<br/>
                 Has a working navigation<br/>
                Used HTML, CSS and JavaScript for animation
             </p>

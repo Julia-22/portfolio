@@ -93,6 +93,9 @@ video{
 
 
 @media screen and (max-width: 678px){
+  .works h2{
+    font-size: 30px;
+  }
   .works{
     margin: 0;
   }
@@ -108,5 +111,11 @@ video{
   }
   video{
     width: 100%;
+  }
+  .works_list li:nth-child(2) .description{
+    width: 100%;
+  }
+  .works_list .description p{
+    font-size: 20px;
   }
 }

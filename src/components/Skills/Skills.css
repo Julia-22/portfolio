@@ -54,3 +54,27 @@
   font-size: 18px;
   color:rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 678px){
+  .skills h2{
+    font-size: 30px;
+  }
+  .hard_skills h3,
+.education h3,
+.soft_skills h3{
+  margin-bottom: 15px;
+}
+  .skills_description{
+    text-align: left;
+    display: block;
+  }
+  .hard_skills li,
+  .education p,
+  .soft_skills li{
+  font-size: 20px;
+}
+.hard_skills{
+  margin-right: 0;
+  margin-bottom: 25px;
+}
+}
