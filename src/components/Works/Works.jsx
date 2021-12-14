@@ -18,7 +18,7 @@ export default function Works() {
       <h2>WORKS</h2>
       <ul className="works_list">
         <li>
-          <img src={dashboard} alt="diving landing" width="500" />
+          <img src={dashboard} alt="diving landing" />
           <div className="description">
             <p><b>Kanban board</b><br/>
               Used <a href="https://board-apiapp.herokuapp.com/api/boards" target="_blank" style={{ color: 'rgba(0, 0, 0, 0.6)' }}>board-apiapp.herokuapp.com</a> API for the backend<br />
@@ -36,7 +36,7 @@ export default function Works() {
         </li>
 
         <li>
-          <img src={movies} alt="movies landing" width="500" />
+          <img src={movies} alt="movies landing" />
           <div className="description">
             <p><b>Movies service</b><br/>
                 Used <a href="https://www.themoviedb.org/" target="_blank" style={{color: 'rgba(0, 0, 0, 0.6)'}}>themoviedb.org</a> API for the backend<br/>
@@ -52,7 +52,7 @@ export default function Works() {
         </li>
 
         <li>
-          <img src={divingLanding} alt="movies landing" width="500" />
+          <img src={divingLanding} alt="movies landing"/>
           <div className="description">
             <p><b>Diving school landing page</b><br/>
                 Has a working navigation<br/>
@@ -69,7 +69,7 @@ export default function Works() {
       </ul>
 
       {modalIsOpen && <Modal handleClose={() => setmodalIsOpen(false)}>
-        <video src={demoVideo} style={{width: 900}} controls autoPlay/>
+        <video src={demoVideo} controls autoPlay/>
       </Modal>}
       
     </div>

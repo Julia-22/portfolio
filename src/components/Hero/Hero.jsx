@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="img_container">
         <div className='img'>
-          <img src={photo} alt="avatar" style={{width: 350}}/>
+          <img src={photo} alt="avatar"/>
         </div>
       </div>
     </div>

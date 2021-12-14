@@ -1,10 +1,11 @@
 .works{
   margin: 50px 0;
+  text-align: center;
 }
 .works h2{
+  display: inline-block;
   position: relative;
   margin-bottom: 40px;
-  text-align: center;
   font-size: 36px;
   font-weight: 800;
   z-index: 2;
@@ -13,7 +14,7 @@
   content: '';
   position: absolute;
   top: -3px;
-  left: 450px;
+  left: -10px;
   width: 55px;
   height: 55px;
   background-color: rgba(69, 158, 84, 0.692);
@@ -26,6 +27,7 @@
   align-items: center;
   margin-bottom: 50px;
   border-radius: 10px;
+  text-align: left;
 }
 
 .works_list li:nth-child(2){
@@ -34,6 +36,7 @@
 }
 
 .works_list img{
+  width: 500px;
   margin-right: 50px;
   border-radius: 10px;
   transition: all 300ms ease-in-out;
@@ -83,4 +86,27 @@ img:hover {
 .buttons_container button a{
   display: block;
   text-align: center;
+}
+video{
+  width: 900px;
+}
+
+
+@media screen and (max-width: 678px){
+  .works{
+    margin: 0;
+  }
+  .works_list li{
+    display: block;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  .works_list img{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  video{
+    width: 100%;
+  }
 }

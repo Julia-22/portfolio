@@ -39,3 +39,15 @@
   z-index: 999999;
   cursor: pointer;
 }
+
+@media screen and (max-width:678px){
+  .modal{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    animation: modalAnimation 150ms ease-in forwards;
+  }
+}

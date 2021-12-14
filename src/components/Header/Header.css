@@ -38,3 +38,9 @@
 .navigation li:hover:after {
   width: 100%;
 }
+
+@media screen and (max-width: 678px){
+  .navigation{
+    display: none;
+  }
+}

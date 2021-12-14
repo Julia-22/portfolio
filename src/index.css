@@ -49,3 +49,13 @@ a{
   transform: rotate(-40deg);
   z-index: -1;
 }
+
+@media screen and (max-width:678px){
+  .App{
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .greenLines{
+    display: none;
+  }
+}
