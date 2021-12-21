@@ -23,7 +23,7 @@ export default function Works() {
             <p><b>Kanban board</b><br/>
               Used <a href="https://board-apiapp.herokuapp.com/api/boards" target="_blank" style={{ color: 'rgba(0, 0, 0, 0.6)' }}>board-apiapp.herokuapp.com</a> API for the backend<br />
               Registration and authentication implemented<br /> Drag and drop events used<br />
-              Written with react, redax, react hooks
+              Written with react, redux, react hooks
             </p>
 
             <div className="buttons_container">
@@ -40,7 +40,7 @@ export default function Works() {
           <div className="description">
             <p><b>Movies service</b><br/>
                 Used <a href="https://www.themoviedb.org/" target="_blank" style={{color: 'rgba(0, 0, 0, 0.6)'}}>themoviedb.org</a> API for the backend<br/>
-                Written with react, redax
+                Written with react, redux
             </p>
 
             <div className="buttons_container">
